@@ -1,0 +1,15 @@
+To run: allow all the files enclosed in the same directory. 
+
+Run PlaneSweep.java and BruteForce.java
+
+Both Programs BruteForce.java and PlaneSweep.java run on file inputs (names "segments.txt")
+
+Both produce a file output (named: "output.txt")
+
+I have taken Point class with double type x and y co-ordinates. 
+This is because the segments could intersect at non interger values. 
+When 2 points of intersection very close to each other may be rounded 
+to the same point if they were int values. 
+
+Using double prevents this from happening. 
+I have rounded the double values upto 2 decimal places. 
